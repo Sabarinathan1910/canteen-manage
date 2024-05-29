@@ -1,7 +1,13 @@
+import '../src/Components/LoginPage'
+import Login from '../src/Components/LoginPage';
+import './App.css';
 
 function App() {
   return (
-   <h1>hai</h1>
-  )};
+    <div>
+    <Login/>
+    </div>
+  );
+}
 
 export default App;
